@@ -1,4 +1,21 @@
-.menu{
-
-color: black;
+*{
+    margin: 0%;
 }
+.header{
+color: black;
+display: flex;
+align-items: center;
+justify-content: space-between;
+box-sizing: border-box;
+border: 2px solid hsl(211, 66%, 92%);
+background-color: hsl(211, 66%, 92%);
+border-width: 100%;
+height: 100px; ;
+
+}
+
+.menu{
+    flex-direction: column;
+    list-style: none;
+}
+
