@@ -3,7 +3,7 @@
 }
 .body{
     font-family: 'Zilla Slab', serif;
-    
+    background-color: hsl(211, 100%, 86%);;
 }
 
 .header{
@@ -27,6 +27,16 @@ font-size: 20px;
     margin-right: 60px;
     list-style: none;
 
+}
+
+.games_scroller{
+   
+    height: 500px;
+    box-sizing: content-box;
+    width: 100%;
+    border: 2px solid;
+    background-color: black;
+    
 }
 
 a{
